@@ -393,6 +393,16 @@ if(!function_exists('docent_css_generator')){
 
             }
 
+            // tutor lms root colors
+            if ($major_color) {
+                $docent_pro_output .= ":root {
+                    --tutor-color-primary: ". esc_attr( $major_color ) .";
+                    --tutor-color-primary-hover: ". esc_attr( $major_color ) .";
+                    --tutor-color-primary-rgb: ". esc_attr( docent_hex2rgb( $major_color ) ) .";
+                    --tutor-color-primary-hover-rgb: ". esc_attr( docent_hex2rgb( $major_color ) ) .";
+                }";
+            }
+
             // Custom Color
             if( get_theme_mod( 'custom_preset_en', true ) ) {
                 $hover_color = get_theme_mod( 'hover_color', '#1b52d8' );
@@ -479,7 +489,7 @@ if(!function_exists('docent_css_generator')){
         $docent_pro_output .= 'h4 {'.$h4style.'}';
         $docent_pro_output .= 'h5 {'.$h5style.'}';
 
-        $docent_pro_output .= '.single_add_to_cart_button,a.tutor-button,.tutor-button,a.tutor-btn,.tutor-btn, .course-complete-button, .docent-single-container .woocommerce-message .wc-forward, .tutor-course-enrolled-review-wrap .write-course-review-link-btn, .header-cat-menu ul li a, .header_profile_menu ul li a, .blog-date-wrapper time, .docent-pagination .page-numbers li a, .footer-mailchamp, #footer-wrap,.common-menu-wrap .nav>li>ul li a {font-family:'.esc_attr(get_theme_mod( 'menu_google_font', 'Montserrat' )).'}';
+        $docent_pro_output .= '.single_add_to_cart_button, .course-complete-button, .docent-single-container .woocommerce-message .wc-forward, .tutor-course-enrolled-review-wrap .write-course-review-link-btn, .header-cat-menu ul li a, .header_profile_menu ul li a, .blog-date-wrapper time, .docent-pagination .page-numbers li a, .footer-mailchamp, #footer-wrap,.common-menu-wrap .nav>li>ul li a {font-family:'.esc_attr(get_theme_mod( 'menu_google_font', 'Montserrat' )).'}';
 
         //Header
         $header_bgc = get_post_meta( get_the_ID() , 'docent_header_color', true );

@@ -3,9 +3,9 @@ Contributors: themeum
 Author URI: https://www.themeum.com/
 Donate link: https://www.themeum.com/contact/
 Requires at Least: 5.0
-Tested Up To: 5.2
+Tested Up To: 5.9
 Requires PHP: 5.6
-Stable Tag: 1.1.0
+Stable Tag: 1.2.0
 
 Docent is a super fast Gutenberg ready WordPress theme for Chef, Musician or an independent teacher, everyone can use the Docent theme to build their own eLearning website to offer their courses online.
 
@@ -75,59 +75,63 @@ the directory of the stable readme.txt, so in this case, ` https://themes.svn.wo
 
 == Changelog ==
 
-= 1.0.9 =
-  * Removed Theme URL
+= 1.2.0 =
+Update: Compatibility Update with Tutor 2.0.2
+Fix: Known Bug Fixed
 
 = 1.0.9 =
-  * Update Theme URL
+Removed Theme URL
+
+= 1.0.9 =
+Update Theme URL
 
 = 1.0.8 =
-  * Added Theme URL
+Added Theme URL
 
 = 1.0.7 =
-  * Added non-minimized bootstrap-grid css
+Added non-minimized bootstrap-grid css
 
 = 1.0.6 =
-  * Added non-minimized version file
-  * Translation issue fixed
-  * Added select2 License link in readme.text
-  * In customizer all field issue fixed
-  * In Responsive keyboard navigation issue fixed
+Added non-minimized version file
+Translation issue fixed
+Added select2 License link in readme.text
+In customizer all field issue fixed
+In Responsive keyboard navigation issue fixed
 
 = 1.0.5 =
-  * Import Export functionality removed
-  * Customizer UI modifications removed
+Import Export functionality removed
+Customizer UI modifications removed
 
 = 1.0.4 =
-  * Theme URI issue fixed.
-  * Missing escaping issue fixed.
-  * Translation issue fixed.
+Theme URI issue fixed.
+Missing escaping issue fixed.
+Translation issue fixed.
 
 = 1.0.3 =
-  * Fixed Wrong Escaping issue
-  * Fixed Translation missing issue
-  * Fixed Wrong function used
-  * Fixed Skip Link missing issue
-  * Added wp_body_open()
-  * Added Header Background Color
-  * Fixed Responsive issue
-  * Checked Customizer Fields
+Fixed Wrong Escaping issue
+Fixed Translation missing issue
+Fixed Wrong function used
+Fixed Skip Link missing issue
+Added wp_body_open()
+Added Header Background Color
+Fixed Responsive issue
+Checked Customizer Fields
 
 = 1.0.2 =
-  * Added Image Credit URI
-  * Escaping Issue Fixed
-  * CSS Issue Fixed
+Added Image Credit URI
+Escaping Issue Fixed
+CSS Issue Fixed
   
 = 1.0.1 =
-  * Fix all translation missing
-  * Fix wrong & missing escaping 
-  * Fix wice escaping issue
-  * Fix post date format issue
-  * Remove CDN link from enqueue js
-  * Change plugin require to recomended
-  * Change image license format
-  * Make skip links compatible
-  * Make keyboard navigation compatible
+Fix all translation missing
+Fix wrong & missing escaping 
+Fix wice escaping issue
+Fix post date format issue
+Remove CDN link from enqueue js
+Change plugin require to recommended
+Change image license format
+Make skip links compatible
+Make keyboard navigation compatible
 
 = 1.0.0 =
-  * Initial Release 
+Initial Release 

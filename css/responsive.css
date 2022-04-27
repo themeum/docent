@@ -906,9 +906,6 @@ responsive
   .tutor-form-field.tutor-course-builder-btn-group button{
     margin-bottom: 20px;
   }
-  .tutor-dashboard-builder-header .tutor-dashboard-builder-header-right button.tutor-button{
-    margin-right: 20px;
-  }
   .tutor-dashboard-builder-header .tutor-dashboard-builder-header-left button, .tutor-dashboard-builder-header .tutor-dashboard-builder-header-right a{
     padding-right: 0;
   }
@@ -1043,9 +1040,6 @@ responsive
   }
   .course-description {
       width: auto;
-  }
-  .single_add_to_cart_button, a.tutor-button, .tutor-button, a.tutor-btn, .tutor-btn {
-      font-size: 12px;
   }
   .docent-course-cart-price .tutor-single-add-to-cart-box {
     margin-right: 20px;
